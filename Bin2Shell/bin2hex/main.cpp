@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 {
 	if (argc != 3)
 	{
-		printf("Usage: %s input_file output_file", argv[0]);
+		printf("Usage: %s input_file output_file.h", argv[0]);
 		return EXIT_FAILURE;
 	}
 
